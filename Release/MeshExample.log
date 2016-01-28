@@ -1,0 +1,23 @@
+﻿Build started 2015/12/14 下午 01:14:09.
+     1>Project "D:\石心\Academic\Computer Graphics\HW\1-2\MeshExample\MeshExample.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\石心\academic\computer graphics\hw\1-2\meshexample\FreeImage.h : warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+     1>main.cpp(182): warning C4018: '<': signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\石心\Academic\Computer Graphics\HW\1-2\MeshExample\Release\MeshExample.exe" /INCREMENTAL:NO /NOLOGO glut32.lib glew32.lib FreeImage.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\石心\Academic\Computer Graphics\HW\1-2\MeshExample\Release\MeshExample.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\石心\Academic\Computer Graphics\HW\1-2\MeshExample\Release\MeshExample.lib" /MACHINE:X86 /SAFESEH Release\main.obj
+         Release\mesh.obj
+         Release\scene.obj
+         Release\view.obj
+         Generating code
+         4 of 627 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           1 functions had inline decision re-evaluated but remain unchanged
+         Finished generating code
+         MeshExample.vcxproj -> D:\石心\Academic\Computer Graphics\HW\1-2\MeshExample\Release\MeshExample.exe
+     1>Done Building Project "D:\石心\Academic\Computer Graphics\HW\1-2\MeshExample\MeshExample.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.79
